@@ -205,10 +205,6 @@ footer i {
   font-size: medium;
 }
 
-footer i:hover {
-  color: #06b5a4;
-}
-
 .flex-container i {
   color: #009688;
   display: inline-block;
@@ -216,40 +212,45 @@ footer i:hover {
   padding-right: 14px;
 }
 
+footer i:hover {
+  color: #06b5a4;
+}
+
+
 a {
   color: white;
 }
 
 @media screen and (max-width: 770px) {
-   .flex-container {
-     flex-direction: column;
+  .flex-container {
+    flex-direction: column;
     max-width: 100%;
   }
 
-   .left-column {
-     background-color: white;
-     height: fit-content;
-     border-style: none;
-     margin: 14px;
-     font-size: 14px;
-     width: 100%;
+  .left-column {
+    background-color: white;
+    height: fit-content;
+    border-style: none;
+    margin: 14px;
+    font-size: 14px;
+    width: 100%;
     box-shadow: #0b0a0a;
   }
 
-   .right-column {
+  .right-column {
     width: 100%;
   }
 
-   .image {
-     width: 100%;
+  .image {
+    width: 100%;
     height: auto;
   }
 
-   .card2 p {
+  .card2 p {
     line-height: 1;
   }
 
-   .card2 .head5 {
+  .card2 .head5 {
     line-height: 1;
   }
 }
