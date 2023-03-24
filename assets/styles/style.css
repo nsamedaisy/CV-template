@@ -1,7 +1,7 @@
 body {
   background-color: #f1f1f1;
   font-family:
-	  Roboto,
+    Roboto,
     sans-serif;
   font-size: 16px;
   margin: 0;
@@ -58,16 +58,6 @@ body {
   color: #757575;
   padding: 0 14px;
   max-width: 100%;
-}
-
-.flex-container i {
-  color: #009688;
-  display: inline-block;
-}
-
-.flex-container i {
-  padding-left: 12px;
-  padding-right: 14px;
 }
 
 .color {
@@ -141,7 +131,7 @@ body {
   margin-bottom: 14px;
   color: #757575;
   box-shadow:
-	  0 4px 10px 0 #0003,
+    0 4px 10px 0 #0003,
     0 4px 20px 0 #00000030;
 }
 
@@ -219,40 +209,47 @@ footer i:hover {
   color: #06b5a4;
 }
 
+.flex-container i {
+  color: #009688;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 14px;
+}
+
 a {
   color: white;
 }
 
 @media screen and (max-width: 770px) {
-  .flex-container {
-    flex-direction: column;
+   .flex-container {
+     flex-direction: column;
     max-width: 100%;
   }
 
-  .left-column {
-    background-color: white;
-    height: fit-content;
-    border-style: none;
-    margin: 14px;
-    font-size: 14px;
-    width: 100%;
+   .left-column {
+     background-color: white;
+     height: fit-content;
+     border-style: none;
+     margin: 14px;
+     font-size: 14px;
+     width: 100%;
     box-shadow: #0b0a0a;
   }
 
-  .right-column {
+   .right-column {
     width: 100%;
   }
 
-  .image {
-    width: 100%;
+   .image {
+     width: 100%;
     height: auto;
   }
 
-  .card2 p {
+   .card2 p {
     line-height: 1;
   }
 
-  .card2 .head5 {
+   .card2 .head5 {
     line-height: 1;
   }
 }
