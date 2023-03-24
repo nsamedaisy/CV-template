@@ -1,7 +1,8 @@
 body {
   background-color: #f1f1f1;
-  font-family: Roboto,
-  sans-serif;
+  font-family:
+	  Roboto,
+    sans-serif;
   font-size: 16px;
   margin: 0;
   display: block;
@@ -15,7 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  box-shadow: #00000033;
+  box-shadow: #0003;
   max-width: 75%;
   margin-left: 12%;
   margin-right: 12%;
@@ -59,7 +60,7 @@ body {
   max-width: 100%;
 }
 
-i {
+.flex-container i {
   color: #009688;
   display: inline-block;
 }
@@ -139,8 +140,9 @@ i {
   margin-right: 10px;
   margin-bottom: 14px;
   color: #757575;
-  box-shadow: 0 4px 10px 0 #00000033,
-  0 4px 20px 0 #00000030;
+  box-shadow:
+	  0 4px 10px 0 #0003,
+    0 4px 20px 0 #00000030;
 }
 
 hr {
