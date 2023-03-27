@@ -4,12 +4,12 @@ body {
     Roboto,
     sans-serif;
   font-size: 16px;
-  margin: 0;
-  display: block;
+  margin:auto;
   line-height: 1.5;
   color: black;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .flex-container {
@@ -17,11 +17,10 @@ body {
   flex-direction: row;
   justify-content: center;
   box-shadow: #0003;
-  max-width: 75%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin: 16px auto 0;
   align-content: center;
   position: relative;
+  width: 1400px;
 }
 
 .left-column {
@@ -30,12 +29,12 @@ body {
   border-style: none;
   margin: 14px;
   font-size: 14px;
-  width: 25%;
+  width: 33.3334%;
   box-shadow: #0b0a0a;
 }
 
 .image {
-  background-image: url("../images/design-14.png");
+  background-image: url("../images/avatar_hat.jpg");
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -68,6 +67,12 @@ body {
   font-size: 10px;
 }
 
+/* skill scale */
+
+.skills {
+  font-size: 18px;
+}
+
 .percent1 {
   width: 90%;
   background-color: #009688;
@@ -94,6 +99,10 @@ body {
 
 /* language scale */
 
+.language {
+  font-size: 18px;
+}
+
 .color1 {
   border-radius: 16px;
   text-align: center;
@@ -104,31 +113,29 @@ body {
   width: 100%;
   background-color: #009688;
   border-radius: 16px;
-  height: 20px;
+  height: 26px;
 }
 
 .rate2 {
   width: 50%;
   background-color: #009688;
   border-radius: 16px;
-  height: 20px;
+  height: 26px;
 }
 
 .rate3 {
   width: 25%;
   background-color: #009688;
   border-radius: 16px;
-  height: 20px;
+  height: 26px;
 }
 
 /* right column */
 
 .right-column {
-  width: 50%;
+  width: 66.6667%;
   height: fit-content;
-  margin-top: 14px;
-  margin-right: 10px;
-  margin-bottom: 14px;
+  margin: 14px 10px 14px 0;
   color: #757575;
   box-shadow:
     0 4px 10px 0 #0003,
@@ -188,14 +195,14 @@ hr {
 
 footer {
   justify-content: center;
-  align-items: center;
+  align-items: left;
   text-align: center;
+  width: 100%;
   color: white;
   background-color: #009688;
   height: 12vh;
   font-size: 14px;
-  padding-top: 2px;
-  padding-bottom: 1px;
+  padding: 3px 0 35px;
 }
 
 footer i {
@@ -223,21 +230,22 @@ a {
 @media screen and (max-width: 770px) {
   .flex-container {
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    margin: auto;
   }
 
   .left-column {
     background-color: white;
     height: fit-content;
     border-style: none;
-    margin: 14px;
     font-size: 14px;
-    width: 100%;
+    width: 90%;
     box-shadow: #0b0a0a;
   }
 
   .right-column {
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
 
   .image {
